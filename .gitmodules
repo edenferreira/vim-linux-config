@@ -28,3 +28,9 @@
 [submodule "bundle/vim-monokai"]
 	path = bundle/vim-monokai
 	url = https://github.com/sickill/vim-monokai.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-cljfmt"]
+	path = bundle/vim-cljfmt
+	url = https://github.com/venantius/vim-cljfmt.git

@@ -5,8 +5,8 @@ syntax on
 set number
 set cursorline
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Full screen
@@ -18,7 +18,7 @@ set backspace=indent,eol,start
 " Apperance and enconding
 set guifont=Ubuntu\ Mono\ 12
 set encoding=utf-8
-colorscheme monokai
+colorscheme github
 
 " Rainbow Parentheses
 au VimEnter * RainbowParenthesesActivate
