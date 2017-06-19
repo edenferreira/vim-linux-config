@@ -36,6 +36,7 @@ set guioptions-=L
 
 " Fix whitespace on before save
 au BufWritePre * :silent FixWhitespace
+au BufWritePre * :%Eval
 
 " Save on focus lost
 au FocusLost * :silent wa
