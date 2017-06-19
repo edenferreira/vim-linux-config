@@ -1,12 +1,15 @@
 execute pathogen#infect()
 
+filetype plugin on
+filetype plugin indent on
+
 " Syntax and basic editor configs
 syntax on
 set number
 set cursorline
 set smartindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set laststatus=2
 
@@ -36,10 +39,6 @@ set guioptions-=L
 
 " Fix whitespace on before save
 au BufWritePre * :silent FixWhitespace
-au BufWritePre * :%Eval
-
-" Save on focus lost
-au FocusLost * :silent wa
 
 " improving search to incremental and appear in the middle of the screen
 set incsearch
