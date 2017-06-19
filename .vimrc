@@ -8,9 +8,10 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set laststatus=2
 
-" Full screen
-set lines=999 columns=999
+au InsertEnter * hi StatusLine term=reverse ctermbg=5 gui=undercurl guisp=Yellow
+au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
 
 " correct backspace behavior
 set backspace=indent,eol,start
@@ -21,11 +22,11 @@ set encoding=utf-8
 colorscheme github
 
 " Rainbow Parentheses
-au VimEnter * RainbowParenthesesActivate
-au GUIEnter * RainbowParenthesesActivate
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+au VimEnter * :RainbowParenthesesActivate
+au GUIEnter * :RainbowParenthesesActivate
+au Syntax * :RainbowParenthesesLoadRound
+au Syntax * :RainbowParenthesesLoadSquare
+au Syntax * :RainbowParenthesesLoadBraces
 
 " Hiding menus
 set guioptions-=m
@@ -49,7 +50,10 @@ let maplocalleader = " "
 
 " split hotkeys
 nnoremap <leader>ws :split<cr>
-nnoremap <leader>wv :vsplit<cr>>
+nnoremap <leader>wv :vsplit<cr>
+
+" fuzzy finder
+nnoremap <leader>p :CtrlP .<cr>
 
 " Maximum width of column
 set colorcolumn=120
