@@ -40,9 +40,6 @@
 [submodule "bundle/vim-sexp"]
 	path = bundle/vim-sexp
 	url = https://github.com/guns/vim-sexp.git
-[submodule "bundle/paredit.vim"]
-	path = bundle/paredit.vim
-	url = https://github.com/vim-scripts/paredit.vim.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
