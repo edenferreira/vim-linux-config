@@ -49,3 +49,6 @@
 [submodule "bundle/ftplugin.vim"]
 	path = bundle/ftplugin.vim
 	url = https://github.com/jieyu/ftplugin.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
