@@ -53,7 +53,7 @@ nnoremap <leader>ws :split<cr>
 nnoremap <leader>wv :vsplit<cr>
 
 " fuzzy finder
-nnoremap <leader>p :CtrlP .<cr>
+nnoremap <leader>p :CtrlPMixed<cr>
 
 " Maximum width of column
 set colorcolumn=120
@@ -61,3 +61,10 @@ set colorcolumn=120
 "indentGuide
 let g:indent_guides_enable_on_vim_startup = 1
 
+" CtrlP Only ancestor with .git
+let g:ctrlp_working_path_mode = 'r'
+
+"Disabling vim cljfmt to be enabled later
+let g:clj_fmt_autosave = 0
+
+ab requist request
