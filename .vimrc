@@ -19,6 +19,13 @@ au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
 " correct backspace behavior
 set backspace=indent,eol,start
 
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window (for an alternative on Windows, see simalt below).
+  set lines=999 columns=999
+endif
+
+
 " Apperance and enconding
 set guifont=Ubuntu\ Mono\ 12
 set encoding=utf-8
