@@ -62,6 +62,11 @@ nnoremap <leader>wv :vsplit<cr>
 " fuzzy finder
 nnoremap <leader>p :CtrlPMixed<cr>
 
+" incsearch
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
 " Maximum width of column
 set colorcolumn=120
 
