@@ -63,9 +63,13 @@ nnoremap <leader>wv :vsplit<cr>
 nnoremap <leader>p :CtrlPMixed<cr>
 
 " incsearch
-map /  <Plug>(incsearch-forward)
-map ?  <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
+map /  <Plug>(incsearch-easymotion-/)
+map ?  <Plug>(incsearch-easymotion-?)
+map g/ <Plug>(incsearch-easymotion-stay)
+
+map fz/ <Plug>(incsearch-fuzzy-/)
+map fz? <Plug>(incsearch-fuzzy-?)
+map fzg/ <Plug>(incsearch-fuzzy-stay)
 
 " Maximum width of column
 set colorcolumn=120
