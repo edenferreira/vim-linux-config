@@ -29,7 +29,7 @@ endif
 " Apperance and enconding
 set guifont=Ubuntu\ Mono\ 12
 set encoding=utf-8
-colorscheme github
+colorscheme atom
 
 " Rainbow Parentheses
 au VimEnter * :RainbowParenthesesActivate
@@ -61,6 +61,9 @@ nnoremap <leader>wv :vsplit<cr>
 
 " fuzzy finder
 nnoremap <leader>p :CtrlPMixed<cr>
+
+" Fireplace
+nnoremap E :%Eval<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)
