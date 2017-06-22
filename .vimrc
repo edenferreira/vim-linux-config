@@ -64,6 +64,7 @@ nnoremap <leader>p :CtrlPMixed<cr>
 
 " Fireplace
 nnoremap E :%Eval<cr>
+nnoremap <leader>f :w <bar> ! lein cljfmt fix %<cr><cr>:e!<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)
