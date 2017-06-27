@@ -1,5 +1,8 @@
 execute pathogen#infect()
 
+" Performance
+set ttyfast
+
 filetype plugin on
 filetype plugin indent on
 
@@ -7,7 +10,6 @@ filetype plugin indent on
 syntax on
 set number
 set cursorline
-set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -62,9 +64,10 @@ nnoremap <leader>wv :vsplit<cr>
 " fuzzy finder
 nnoremap <leader>p :CtrlPMixed<cr>
 
-" Fireplace
-nnoremap E :%Eval<cr>
-nnoremap <leader>f :w <bar> ! lein cljfmt fix %<cr><cr>:e!<cr>
+" TODO put this in the clojure ftplugin
+
+" Utils
+nnoremap <leader>er :split <bar> e $MYVIMRC<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)
@@ -74,9 +77,6 @@ map g/ <Plug>(incsearch-easymotion-stay)
 map fz/ <Plug>(incsearch-fuzzy-/)
 map fz? <Plug>(incsearch-fuzzy-?)
 map fzg/ <Plug>(incsearch-fuzzy-stay)
-
-" Maximum width of column
-set colorcolumn=120
 
 "indentGuide
 let g:indent_guides_enable_on_vim_startup = 1
@@ -88,3 +88,4 @@ let g:ctrlp_working_path_mode = 'r'
 let g:clj_fmt_autosave = 0
 
 ab requist request
+ab nutapd nu/tapd
