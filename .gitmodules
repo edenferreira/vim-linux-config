@@ -67,3 +67,12 @@
 [submodule "bundle/incsearch-easymotion.vim"]
 	path = bundle/incsearch-easymotion.vim
 	url = https://github.com/haya14busa/incsearch-easymotion.vim.git
+[submodule "bundle/vim-sexp-mappings-for-regular-people"]
+	path = bundle/vim-sexp-mappings-for-regular-people
+	url = git://github.com/tpope/vim-sexp-mappings-for-regular-people.git
+[submodule "bundle/vim-sexp"]
+	path = bundle/vim-sexp
+	url = git://github.com/guns/vim-sexp.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git

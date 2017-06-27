@@ -33,13 +33,6 @@ set guifont=Ubuntu\ Mono\ 12
 set encoding=utf-8
 colorscheme atom
 
-" Rainbow Parentheses
-au VimEnter * :RainbowParenthesesActivate
-au GUIEnter * :RainbowParenthesesActivate
-au Syntax * :RainbowParenthesesLoadRound
-au Syntax * :RainbowParenthesesLoadSquare
-au Syntax * :RainbowParenthesesLoadBraces
-
 " Hiding menus
 set guioptions-=m
 set guioptions-=T
