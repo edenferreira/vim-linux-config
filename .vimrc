@@ -77,8 +77,5 @@ let g:indent_guides_enable_on_vim_startup = 1
 " CtrlP Only ancestor with .git
 let g:ctrlp_working_path_mode = 'r'
 
-"Disabling vim cljfmt to be enabled later
-let g:clj_fmt_autosave = 0
-
 ab requist request
 ab nutapd nu/tapd
