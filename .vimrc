@@ -18,6 +18,9 @@ set laststatus=2
 au InsertEnter * hi StatusLine term=reverse ctermbg=5 gui=undercurl guisp=Yellow
 au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
 
+"Disabling vim cljfmt to be enabled later
+let g:clj_fmt_autosave = 0
+
 " correct backspace behavior
 set backspace=indent,eol,start
 
@@ -61,6 +64,7 @@ nnoremap <leader>p :CtrlPMixed<cr>
 
 " Utils
 nnoremap <leader>er :split <bar> e $MYVIMRC<cr>
+nnoremap <leader>rr :so $MYVIMRC<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)

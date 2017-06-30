@@ -3,7 +3,7 @@ nnoremap <leader>ec :split <bar> e ~/.vim/ftplugin/clojure.vim<cr>
 set tabstop=2
 set shiftwidth=2
 
-" let g:sexp_enable_insert_mode_mappings = 0
+let g:sexp_enable_insert_mode_mappings = 0
 
 " au BufWritePre *.clj :Eval
 
@@ -21,9 +21,6 @@ let g:rbpt_colorpairs = [
     \ ['96', '#606060'],
     \ ['80', '#505050'],
     \ ]
-
-"Disabling vim cljfmt to be enabled later
-let g:clj_fmt_autosave = 0
 
 " Forms
 nmap <leader>)f ysaf)
