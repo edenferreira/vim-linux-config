@@ -32,9 +32,9 @@ endif
 
 
 " Apperance and enconding
-set guifont=Ubuntu\ Mono\ 12
+set guifont=Ubuntu\ Mono\ 14
 set encoding=utf-8
-colorscheme atom
+colorscheme monokai
 
 " Hiding menus
 set guioptions-=m
@@ -64,7 +64,10 @@ nnoremap <leader>p :CtrlPMixed<cr>
 
 " Utils
 nnoremap <leader>er :split <bar> e $MYVIMRC<cr>
+nnoremap <leader>ee :e<cr>
 nnoremap <leader>rr :so $MYVIMRC<cr>
+nnoremap <leader>ww :w<cr>
+nnoremap <leader>wq :wq<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)
@@ -83,3 +86,4 @@ let g:ctrlp_working_path_mode = 'r'
 
 ab requist request
 ab nutapd nu/tapd
+ab scehma schema

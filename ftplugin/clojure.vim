@@ -3,7 +3,7 @@ nnoremap <leader>ec :split <bar> e ~/.vim/ftplugin/clojure.vim<cr>
 set tabstop=2
 set shiftwidth=2
 
-let g:sexp_enable_insert_mode_mappings = 0
+let g:sexp_enable_insert_mode_mappings = 1
 
 " au BufWritePre *.clj :Eval
 
@@ -29,6 +29,12 @@ nmap <leader>}f ysaf}
 nmap <leader>)e cse(
 nmap <leader>]e cse[
 nmap <leader>}e cse{
+
+" Sexp
+nmap >0 >)
+nmap <0 <)
+nmap >9 >(
+nmap <9 <(
 
 " Fireplace
 nnoremap <leader>e :%Eval<cr>
