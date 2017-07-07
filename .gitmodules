@@ -85,3 +85,6 @@
 [submodule "bundle/quick-scope"]
 	path = bundle/quick-scope
 	url = https://github.com/unblevable/quick-scope.git
+[submodule "bundle/vim-g"]
+	path = bundle/vim-g
+	url = https://github.com/szw/vim-g.git
