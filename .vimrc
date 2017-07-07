@@ -84,6 +84,10 @@ let g:indent_guides_enable_on_vim_startup = 1
 " CtrlP Only ancestor with .git
 let g:ctrlp_working_path_mode = 'r'
 
+"Sessions
+let g:session_autosave = 'no'
+let g:session_default_to_last = 1
+
 ab requist request
 ab nutapd nu/tapd
 ab scehma schema
