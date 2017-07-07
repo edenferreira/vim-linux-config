@@ -82,3 +82,6 @@
 [submodule "bundle/vim-session"]
 	path = bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule "bundle/quick-scope"]
+	path = bundle/quick-scope
+	url = https://github.com/unblevable/quick-scope.git
