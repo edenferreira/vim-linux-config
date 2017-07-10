@@ -68,6 +68,9 @@ nnoremap <leader>ee :e<cr>
 nnoremap <leader>rr :so $MYVIMRC<cr>
 nnoremap <leader>ww :w<cr>
 nnoremap <leader>wq :wq<cr>
+nnoremap <leader>wa :wa<cr>
+nnoremap <leader>gb ``
+nnoremap <leader>gp :Grepper<cr>
 
 " incsearch
 map /  <Plug>(incsearch-easymotion-/)
